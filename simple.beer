@@ -1,0 +1,21 @@
+RECIPE "Basik"
+	volume: 22 L
+	mash_temp: 66.0 C
+EQUIPMENT "Home"
+	efficiency: 65
+	volume: 30 L
+FERMENTABLES
+	GRAIN "Two Row"
+		potential: 1.037 SG
+		colour: 3.9 EBC
+		quantity: 5000 g
+HOPS
+	HOP "Fuggles"
+		alpha: 5.5
+		quantity: 50 g
+		time: 60 min
+		type: Leaf
+		use: Boil
+YEAST "Safale S-05"
+	flocculation: medium
+	attenuation: 78
