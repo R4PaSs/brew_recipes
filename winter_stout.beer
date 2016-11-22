@@ -34,8 +34,7 @@ HOPS
 		alpha: 15.4
 		quantity: 50 g
 		time: 60 min
-		type: Leaf
 		use: Boil
 YEAST "WLP-013"
-	flocculation: medium
 	attenuation: 75
+	brand "White Labs"

@@ -30,20 +30,18 @@ HOPS
 		alpha : 7.7
 		quantity : 1 oz
 		time : 60 min
-		type : Leaf
 		use : Boil
 	HOP "Cascade"
 		alpha : 7.7
 		quantity : 1 oz
 		time : 25 min
-		type : Leaf
 		use : Boil
 	HOP "Sorachi Ace"
 		alpha : 12.5
 		quantity : 3 oz
 		time : 1 week
-		type : Leaf
 		use : DryHop
-YEAST "S-05"
-	flocculation : medium
+YEAST "Safale S-05"
 	attenuation : 77
+	brand "Fermentis"
+	alias "American Ale Yeast"

@@ -34,32 +34,28 @@ HOPS
 		alpha: 	8.6
 		quantity: 50 g
 		time: 	90 min
-		type: 	Leaf
 		use: 	Boil
 	HOP "Northdown"
 		alpha: 	8.6
 		quantity: 30 g
 		time: 	30 min
-		type: 	Leaf
 		use: 	Boil
 	HOP "Northdown"
 		alpha	8.6
 		quantity 30 g
 		time 	5 min
-		type 	Leaf
 		use 	Boil
 	HOP "Northdown"
 		alpha	8.6
 		quantity 30 g
 		time	0 min
-		type	Leaf
 		use	Boil
 	HOP "Northdown"
 		alpha	8.6
 		quantity 100 g
 		time	1 week
-		type	Leaf
 		use	DryHop
 YEAST "Safale S-05"
-	flocculation: medium
+	brand "Fermentis"
 	attenuation: 78
+	alias "American Ale Yeast"

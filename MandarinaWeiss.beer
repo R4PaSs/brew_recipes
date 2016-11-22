@@ -22,26 +22,22 @@ HOPS
 		alpha: 10.6
 		quantity 25 g
 		time 60 min
-		type Leaf
 		use Boil
 	HOP "Mandarina"
 		alpha: 7.6
 		quantity 25 g
 		time 30 min
-		type Pellet
 		use Boil
 	HOP "Mandarina"
 		alpha: 7.6
 		quantity 25 g
 		time 5 min
-		type Pellet
 		use Boil
 	HOP "Mandarina"
 		alpha: 7.6
 		quantity 75 g
 		time 1 week
-		type Pellet
 		use DryHop
-YEAST "S-05"
-	flocculation : medium
+YEAST "Safale S-05"
 	attenuation : 77
+	brand "Fermentis"

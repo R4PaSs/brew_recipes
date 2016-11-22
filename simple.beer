@@ -14,8 +14,7 @@ HOPS
 		alpha: 5.5
 		quantity: 50 g
 		time: 60 min
-		type: Leaf
 		use: Boil
 YEAST "Safale S-05"
-	flocculation: medium
 	attenuation: 78
+	brand "Fermentis"

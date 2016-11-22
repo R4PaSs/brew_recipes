@@ -34,8 +34,8 @@ HOPS
 		alpha : 5.5
 		quantity : 1 oz
 		time : 60 min
-		type : Leaf
 		use : Boil
 YEAST "WLP-400"
-	flocculation : low
 	attenuation : 75
+	brand "White Labs"
+	alias "Belgian Wit Ale Yeast"

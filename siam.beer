@@ -34,38 +34,33 @@ HOPS
 		alpha: 10.7
 		quantity: 10 g
 		time: 60 min
-		type: Leaf
 		use: Boil
 	HOP "Citra"
 		alpha: 13.7
 		quantity: 10 g
 		time: 60 min
-		type: Leaf
 		use: Boil
 	HOP "Centennial"
 		alpha: 10.7
 		quantity: 15 g
 		time: 10 min
-		type: Leaf
 		use: Boil
 	HOP "Citra"
 		alpha: 13.7
 		quantity: 15 g
 		time: 10 min
-		type: Leaf
 		use: Boil
 	HOP "Centennial"
 		alpha: 10.7
 		quantity: 25 g
 		time: 1 week
-		type: Leaf
 		use: DryHop
 	HOP "Citra"
 		alpha: 13.7
 		quantity: 25 g
 		time: 1 week
-		type: Leaf
 		use: DryHop
-YEAST "S-04"
-	flocculation : medium
+YEAST "Safale S-04"
 	attenuation : 77
+	brand "Fermentis"
+	alias "English Ale Yeast"

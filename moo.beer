@@ -30,20 +30,18 @@ HOPS
 		alpha: 	16
 		quantity: 15 g
 		time: 	60 min
-		type: 	Pellet
 		use: 	Boil
 	HOP "Zeus"
 		alpha	16
 		quantity 15 g
 		time	30 min
-		type	Pellet
 		use	Boil
 	HOP "Zeus"
 		alpha	16
 		quantity 10 g
 		time	0 min
-		type	Pellet
 		use	Boil
-YEAST "Wyeast 3724 - Belgian Saison"
-	flocculation: low
+YEAST "Wyeast 3724"
 	attenuation: 80
+	brand "Wyeast"
+	alias "Belgian Saison Yeast"

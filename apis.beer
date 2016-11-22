@@ -38,8 +38,8 @@ HOPS
 		alpha: 	9.9
 		quantity: 30 g
 		time: 	60 min
-		type: 	Leaf
 		use: 	Boil
-YEAST "WLP028 - Edinburgh Ale"
-	flocculation: medium
+YEAST "WLP028"
+	brand "White Labs"
 	attenuation: 75
+	alias "Edinburgh Ale Yeast"

@@ -26,80 +26,68 @@ HOPS
 		alpha  9.6
 		quantity 1 oz
 		time 60 min
-		type Leaf
 		use Boil
 	HOP "Citra"
 		alpha  13.7
 		quantity 1 oz
 		time 45 min
-		type Leaf
 		use Boil
 	HOP "Centennial"
 		alpha  9.6
 		quantity 1 oz
 		time 10 min
-		type Leaf
 		use Boil
 	HOP "Amarillo"
 		alpha  7.1
 		quantity 1 oz
 		time 10 min
-		type Leaf
 		use Boil
 	HOP "Amarillo"
 		alpha  7.1
 		quantity 1 oz
 		time 10 min
-		type Leaf
 		use Boil
 	HOP "Citra"
 		alpha  13.7
 		quantity 1 oz
 		time 10 min
-		type Leaf
 		use Boil
 	HOP "Simcoe"
 		alpha: 15.4
 		quantity: 1 oz
 		time: 1 week
-		type: Pellet
 		use: DryHop
 	HOP "Simcoe"
 		alpha: 15.4
 		quantity: 1 oz
 		time: 1 week
-		type: Pellet
 		use: DryHop
 	HOP "Zythos"
 		alpha: 10.9
 		quantity: 1 oz
 		time: 1 week
-		type: Pellet
 		use: DryHop
 	HOP "Zythos"
 		alpha: 10.9
 		quantity: 1 oz
 		time: 1 week
-		type: Pellet
 		use: DryHop
 	HOP "7C"
 		alpha: 10.3
 		quantity: 1 oz
 		time: 1 week
-		type: Pellet
 		use: DryHop
 	HOP "7C"
 		alpha: 10.3
 		quantity: 1 oz
 		time: 1 week
-		type: Pellet
 		use: DryHop
 	HOP "Mandarina Bavaria"
 		alpha: 7.6
 		quantity: 50 g
 		time: 1 week
-		type: Pellet
 		use: DryHop
-YEAST "S-05"
-	flocculation medium
+YEAST "Safale S-05"
 	attenuation 78
+	brand "Fermentis"
+	alias "American Ale Yeast"

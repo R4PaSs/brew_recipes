@@ -14,26 +14,22 @@ HOPS
 		alpha: 10.3
 		quantity: 25 g
 		time: 60 min
-		type: Leaf
 		use: Boil
 	HOP "Amarillo"
 		alpha: 10.3
 		quantity: 15 g
 		time: 15 min
-		type: Leaf
 		use: Boil
 	HOP "Amarillo"
 		alpha: 10.3
 		quantity: 10 g
 		time: 5 min
-		type: Leaf
 		use: Boil
 	HOP "Amarillo"
 		alpha: 10.3
 		quantity: 50 g
 		time: 1 week
-		type: Leaf
 		use: DryHop
 YEAST "Safale S-05"
-	flocculation: medium
 	attenuation: 78
+	brand "Fermentis"
