@@ -1,0 +1,39 @@
+RECIPE "baZINGa"
+	volume 20 L
+	mash_temp 64 C
+	mash_time 90 min
+EQUIPMENT "Home"
+	volume 30 L
+	efficiency 65
+FERMENTABLES
+	GRAIN "Two-Row"
+		potential 1.038 SG
+		quantity 2500 g
+		colour 2 SRM
+	GRAIN "Malted Wheat"
+		potential 1.036 SG
+		quantity 2000 g
+		colour 1.5 SRM
+	GRAIN "Sauermalz"
+		potential 1.037 SG
+		quantity 450 g
+		colour 2 SRM
+	ADJUNCT "David's Tea - Piège à Ours"
+		potential 1.0 SG
+		quantity 200 g
+		colour 0 SRM
+HOPS
+	HOP "Hallertauer Mittelfrüh"
+		alpha 4.8
+		quantity 20 g
+		time 60 min
+		use Boil
+	HOP "Hallertauer Mittelfrüh"
+		alpha 4.8
+		quantity 20 g
+		time 5 min
+		use Boil
+YEAST "Safale S-04"
+	attenuation 76
+	brand "Fermentis"
+	alias "English Ale Yeast"

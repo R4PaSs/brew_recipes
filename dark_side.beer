@@ -1,0 +1,46 @@
+RECIPE "Dark Side"
+	volume: 20 L
+	mash_temp: 69.0 C
+EQUIPMENT "Home"
+	efficiency: 65
+	volume: 30 L
+FERMENTABLES
+	GRAIN "Maris Otter"
+		potential: 1.037 SG
+		colour: 3.9 EBC
+		quantity: 4500 g
+	GRAIN "Vienna Malz"
+		potential 1.036 SG
+		colour 4 SRM
+		quantity 700 g
+	GRAIN "Munchen Malz"
+		potential 1.035 SG
+		colour 7.5 SRM
+		quantity 700 g
+	GRAIN "Biscuit Malt"
+		potential 1.025 SG
+		colour 23 SRM
+		quantity 300 g
+	GRAIN "Chocolate Malt"
+		potential 1.028 SG
+		colour 350 SRM
+		quantity 300 g
+	GRAIN "Toasted Malt"
+		potential 1.025 SG
+		colour 500 SRM
+		quantity 200 g
+HOPS
+	HOP "Willamette"
+		alpha: 5.5
+		quantity: 60 g
+		time: 60 min
+		use: Boil
+	HOP "Willamette"
+		alpha 5.5
+		quantity 40 g
+		time 20 min
+		use Boil
+YEAST "WLP-013"
+	attenuation: 75
+	brand "White Labs"
+	alias "London Ale Yeast"
