@@ -1,0 +1,60 @@
+RECIPE "Assaisonnee"
+	volume 20 L
+	mash_temp 66.6 C
+
+EQUIPMENT "Home"
+	volume 30 L
+	efficiency 65
+
+FERMENTABLES
+	GRAIN "Pilsner Malt"
+		potential: 1.036 SG
+		colour: 2 SRM
+		quantity: 3000 g
+	GRAIN "Spelt Malt"
+		potential 1.029 SG
+		colour 5 SRM
+		quantity 500 g
+	GRAIN "Wheat Malt"
+		potential 1.035 SG
+		colour 2 SRM
+		quantity 1000 g
+	ADJUNCT "Black Pepper"
+		potential 1.000 SG
+		colour 0 SRM
+		quantity 30 g
+	ADJUNCT "Coriander"
+		potential 1.0 SG
+		colour 0 SRM
+		quantity 10 g
+	ADJUNCT "Curacao Orange Peel"
+		potential 1.0 SG
+		colour 0 SRM
+		quantity 10 g
+
+HOPS
+	HOP "CTZ"
+		alpha 15.0
+		quantity 10 g
+		use Boil
+		time 60 min
+	HOP "Sladek"
+		alpha 6.5
+		quantity 10 g
+		use Boil
+		time 20 min
+	HOP "Sladek"
+		alpha 6.5
+		quantity 10 g
+		use Boil
+		time 10 min
+	HOP "Sladek"
+		alpha 6.5
+		quantity 20 g
+		use Boil
+		time 0 min
+
+YEAST "WLP-566"
+	attenuation 85
+	brand "White Labs"
+	alias "Belgian Saison II Yeast"
