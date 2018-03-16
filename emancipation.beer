@@ -1,0 +1,81 @@
+RECIPE "EmancIPAtion"
+	volume: 21 L
+	mash_temp: 66 C
+EQUIPMENT "Home"
+	efficiency: 65
+	volume: 30 L
+FERMENTABLES
+	GRAIN "Maris Otter"
+		potential 1.038 SG
+		colour 2 SRM
+		quantity 3500 g
+	GRAIN "Unmalted Wheat"
+		potential 1.035 SG
+		colour 2 SRM
+		quantity 1000 g
+	GRAIN "Rye flakes"
+		potential 1.036 SG
+		colour 2 SRM
+		quantity 500 g
+	GRAIN "Crystal 20"
+		potential 1.034 SG
+		colour 20 SRM
+		quantity 200 g
+	SUGAR "Corn Syrup"
+		potential 1.046 SG
+		colour 1 SRM
+		quantity 350 g
+	ADJUNCT "Rice hulls"
+		potential 1.0 SG
+		colour 0 SRM
+		quantity 200 g
+HOPS
+	HOP "Equinox"
+		alpha 12.5
+		quantity 10 g
+		time 60 min
+		use Boil
+	HOP "Mosaic"
+		alpha 13.3
+		quantity 30 g
+		time 10 min
+		use Boil
+	HOP "Amarillo"
+		alpha 7.2
+		quantity 30 g
+		time 10 min
+		use Boil
+	HOP "Amarillo"
+		alpha 7.2
+		quantity 20 g
+		time 0 min
+		use Boil
+	HOP "Mosaic"
+		alpha 13.3
+		quantity 20 g
+		time 0 min
+		use Boil
+	HOP "Falconer's Flight"
+		alpha 9.8
+		quantity 25 g
+		time 1 week
+		use DryHop
+	HOP "Mosaic"
+		alpha 13.3
+		quantity 50 g
+		time 1 week
+		use DryHop
+	HOP "Equinox"
+		alpha 12.5
+		quantity 15 g
+		time 1 week
+		use DryHop
+	HOP "Amarillo"
+		alpha 7.2
+		quantity 25 g
+		time 1 week
+		use DryHop
+YEAST "Safale S-05"
+	attenuation 77
+	brand "Fermentis"
+	alias "American Ale Yeast"
