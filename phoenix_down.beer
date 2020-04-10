@@ -1,0 +1,40 @@
+RECIPE "Phoenix Down"
+	volume: 21 L
+	mash_temp: 69 C
+EQUIPMENT "Home"
+	efficiency: 65
+	volume: 30 L
+FERMENTABLES
+	GRAIN "Maris Otter"
+		potential	1.038 SG
+		colour		4 SRM
+		quantity	3000 g
+	GRAIN "Munich"
+		potential	1.037 SG
+		colour		9 SRM
+		quantity	2000 g
+	GRAIN "Crystal 120"
+		potential	1.033 SG
+		colour		120 SRM
+		quantity	1000 g
+	GRAIN "Chocolate Malt"
+		potential	1.028 SG
+		colour		350 SRM
+		quantity	1000 g
+	GRAIN "Oats"
+		potential	1.037 SG
+		colour		1 SRM
+		quantity	1000 g
+	ADJUNCT "Cocoa"
+		potential	1.000 SG
+		colour		0 SRM
+		quantity	300 g
+HOPS
+	HOP "EKG"
+		alpha: 	4.7
+		quantity: 70 g
+		time: 	60 min
+		use: 	Boil
+YEAST "Safale S-04"
+	attenuation: 72
+	brand "Fermentis"
